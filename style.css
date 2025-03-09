@@ -1,0 +1,58 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #4CAF50; /* Green soccer field vibe */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+/* Headings */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+/* Paragraphs and lists */
+p, ul {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Video styling */
+video {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Image styling */
+img {
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    margin: 10px 0;
+}
