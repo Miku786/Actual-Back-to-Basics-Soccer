@@ -2,15 +2,25 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #e6f0fa; /*Light blue background for a soccer sky vibe*/
+    background-color: #e6f0fa;
+    background-image: url('https://example.com/your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
 }
 
-/* Navigation styling */
 nav {
-    background-color: #d32f2f; /* Red for Manchester United */
+    background-color: #d32f2f;
     padding: 15px;
     text-align: center;
-    border-bottom: 3px solid #1565c0; /* Blue accent for FC Barcelona */
+    border-bottom: 3px solid #1565c0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav:hover {
+    background-color: #c2185b;
 }
 
 nav a {
@@ -19,30 +29,32 @@ nav a {
     margin: 0 20px;
     font-size: 18px;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #ffeb3b; /* Yellow hover to add contrast */
+    color: #ffeb3b;
 }
 
-
 h1 {
-    color: #1565c0; /* FC Barcelona blue */
+    color: #1565c0;
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
-    color: #d32f2f; /* Manchester United red */
+    color: #d32f2f;
     font-size: 24px;
+    margin-bottom: 15px;
 }
 
-/* for the text */
 p, ul {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
+    margin-bottom: 20px;
 }
 
 video {
@@ -52,15 +64,45 @@ video {
     border-radius: 10px;
     display: block;
     margin: 20px auto;
-    border: 3px solid #1565c0; /* Blue border for video */
+    border: 3px solid #1565c0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-/* Image styling */
+video:hover {
+    transform: scale(1.05);
+}
+
 img {
-    border: 3px solid #d32f2f; /* Red border for images */
+    border: 3px solid #d32f2f;
     border-radius: 8px;
     margin: 15px 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 30px 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    pointer-events: none;
 }
