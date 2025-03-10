@@ -1,17 +1,16 @@
-/* General styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #e6f0fa; /* Light blue background for a soccer sky vibe */
+    background-color: #e6f0fa; /*Light blue background for a soccer sky vibe*/
 }
 
 /* Navigation styling */
 nav {
-    background-color: #d32f2f; /* Red inspired by Manchester United */
+    background-color: #d32f2f; /* Red for Manchester United */
     padding: 15px;
     text-align: center;
-    border-bottom: 3px solid #1565c0; /* Blue accent inspired by FC Barcelona */
+    border-bottom: 3px solid #1565c0; /* Blue accent for FC Barcelona */
 }
 
 nav a {
@@ -23,10 +22,10 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffeb3b; /* Yellow hover effect for contrast */
+    color: #ffeb3b; /* Yellow hover to add contrast */
 }
 
-/* Headings */
+
 h1 {
     color: #1565c0; /* FC Barcelona blue */
     text-align: center;
@@ -39,14 +38,13 @@ h2 {
     font-size: 24px;
 }
 
-/* Paragraphs and lists */
+/* for the text */
 p, ul {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
 }
 
-/* Video styling */
 video {
     width: 100%;
     max-width: 640px;
@@ -54,7 +52,7 @@ video {
     border-radius: 10px;
     display: block;
     margin: 20px auto;
-    border: 3px solid #1565c0; /* Blue border for videos */
+    border: 3px solid #1565c0; /* Blue border for video */
 }
 
 /* Image styling */
