@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #e6f0fa;
-    background-image: url('https://example.com/your-background-image.jpg');
+    background-image: ('Blackbackground.jpg');
     background-size: cover;
     background-position: center;
     color: #333;
