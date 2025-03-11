@@ -3,10 +3,16 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #e6f0fa;
-    background-image: ('Blackbackground.jpg');
+    background-image: ('images/Blackbackground.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     color: #333;
+}
+
+body::after {
+    content: '';
+    display: none;
 }
 
 nav {
@@ -94,15 +100,4 @@ section {
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
-}
-
-body::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.6);
-    pointer-events: none;
 }
